@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<centro>
+    <nombre>Cesur</nombre>
+    <localidad>Málaga</localidad>
+    <alumnos>
+      <alumno>
+        <nombre>Pablo</nombre>
+        <apellidos>Robles Lorenzo</apellidos>
+        <telefono>673458912</telefono>
+        <email>pablitorobles@gmail.com</email>
+    </alumno>  
+    </alumnos>
+    
+</centro>
+

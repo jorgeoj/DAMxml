@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Almacen>
+    <productos>
+        
+        <articulo>
+            <nombre>Refresco 1LT</nombre>
+            <precio>1.25</precio>
+            <cantidad>56</cantidad>
+            <descatalogado/> <!-- Un elemento sin nada dentro-->
+        </articulo>
+        
+        <articulo>
+            <nombre>Agua 1LT</nombre>
+            <precio>0.85</precio>
+            <cantidad>78</cantidad>
+        </articulo>
+            
+    </productos> 
+</Almacen>
+
