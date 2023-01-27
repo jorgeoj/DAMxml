@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<factura num="999">
+    
+    <fecha>12-01-2005</fecha>
+    <numPedido>731</numPedido>
+    <formaPago>EFECTIVO</formaPago>
+    
+    <emisor cif="Q-9876543">
+        <tienda>Equipos Digitales S.L.</tienda>
+        <calle>Av. Valladolid</calle>
+        <direccion>Madrid 28015</direccion>
+        <telefono>917776699</telefono>    
+    </emisor>  
+      
+        <datosCliente num="879">
+            <nombre>Dario Bueno Gutierrez</nombre>
+            <direccion>Av. Oporto 7, 4d</direccion>
+            <poblacion cp="28043">Madrid</poblacion>
+            <provincia>Madrid</provincia>
+        </datosCliente>
+        
+        <datosFactura>
+            <objeto cant="1">
+                <ref>MB8QDIP4</ref>
+                <descripcion>placa base qdi p4</descripcion>
+                <precio iva="16%">180 euros</precio>
+                <importe>208,80</importe>
+            </objeto>
+        </datosFactura>
+        
+        <importe>
+            
+        </importe>
+        
+    
+</factura>
+

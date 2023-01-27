@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<biblioteca>
+    <libros>
+        
+        <libro>
+            <titulo></titulo>
+            <isbn></isbn>
+            <autor></autor>
+            <idioma></idioma>
+            <edicion></edicion>
+            <año></año>
+            <editorial></editorial>
+            <resumen></resumen>
+            
+            <categorias>
+                <categoria>terror</categoria>
+                <categoria>infantil</categoria>
+            </categorias>
+            
+            <ubicacion>
+                <seccion></seccion>
+                <estanteria></estanteria>
+            </ubicacion>
+            
+            <ejemplares>
+                <ejemplar estado ="BUENO" id="1234">
+                    <fecha></fecha>
+                </ejemplar>
+                ...
+            </ejemplares>
+            
+            
+        </libro>
+        ...
+    </libros>
+    
+    <usuarios>
+        
+        <usuario id="ZISDHVFSD">
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <nacimiento></nacimiento>
+            
+            <prestamos>
+                <prestamo ejemplar="1234">
+                    <salida></salida>
+                    <entrada></entrada>
+                </prestamo>
+            </prestamos>
+        </usuario>
+        
+    </usuarios>
+    
+</biblioteca>
+
