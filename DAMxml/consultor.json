@@ -1,0 +1,17 @@
+{
+    "categoria": "junior",
+    "empleado":{
+        "nombre": "Francisco",
+        "apellidos": "Romero",
+        "dni": "edfhia2",
+        "domicilio":"dosfjw`fqw",
+        "cp":"23946",
+        "ciudad":"malaga",
+        "puesto":{
+            "codigo":"grs",
+            "descripcion":"sdfujw09",
+            "sueldo":45999
+        }
+        
+    }
+}

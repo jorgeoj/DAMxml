@@ -1,0 +1,28 @@
+<!DOCTYPE famiglia[
+    <!ELEMENT famiglia (persona+) >
+    
+    <!ELEMENT persona (nombre, apellidos, email?, parentesco+) > //? para opcional, + para obligacion
+    <!ATTLIST famiglia dni CDATA #IMPLIED >
+    <!ATTLIST famiglia edad CDATA #IMPLIED >
+
+    <!ELEMENT nombre (#PCDATA) >
+    <!ELEMENT apellidos (#PCDATA) >
+    <!ELEMENT email (#PCDATA) >
+    <!ELEMENT parentesco (#PCDATA) >
+]>
+
+
+
+
+<famiglia>
+    
+    <persona dni ="dfñjwe2" edad="35">
+       <nombre>Vito</nombre>
+        <apellidos>Corleone</apellidos>
+        <email>adpifhsbfdsd@gmail.com</email>
+        <email>vito@onlyfans.com</email> 
+        <parentesco>Padrino</parentesco>
+    </persona>
+    
+</famiglia>
+

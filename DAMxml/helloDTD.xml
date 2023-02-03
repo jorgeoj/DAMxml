@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+
+<!DOCTYPE reserva[
+<!ELEMENT reserva (nombre, telefono, email, fecha, personas, presupuesto, comentarios) >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT telefono (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT fecha (#PCDATA) >
+<!ELEMENT personas (#PCDATA) >
+<!ELEMENT presupuesto (#PCDATA) >
+<!ELEMENT comentarios (#PCDATA) >
+]>
+
+
+<reserva>
+    <nombre>pablo</nombre>
+    <telefono>435720234</telefono>
+    <email>deihfjqwpofje</email>
+    <fecha>21/12/1221</fecha>
+    <personas>4</personas>
+    <presupuesto>65</presupuesto>
+    <comentarios>pwefjq`wpofjsdpfjasdfj</comentarios>
+</reserva>
+
