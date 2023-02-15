@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE aeropuerto [
+<!-- Elemento raiz  -->
+<!ELEMENT aeropuerto (nombre, vuelos, fecha) >
+<!ELEMENT nombre(#PCDATA) >
+<!ELEMENT fecha(#PCDATA) >
+
+<!--Informacion de vuelos-->
+<!ELEMENT vuelos (vuelo+) >  <!--El mas significa que hay al menos uno-->
+<!ELEMENT vuelo (diario?, origen, destino, salida, llegada) > <!--El ? significa que es SI o NO-->
+<!ATTLIST vuelo codigo ID #REQUIRED >
+<!ATTLIST vuelo estado (C|E|R) #IMPLIED "E" >
+
+
+<!ELEMENT diario EMPTY >
+<!ELEMENT origen (#PCDATA) >
+<!ELEMENT destino (#PCDATA) >
+<!ELEMENT salida (#PCDATA) >
+<!ELEMENT llegada (#PCDATA) >
+]>
+
+
+<aeropuerto>
+    <nombre>AGP</nombre>
+    <vuelos>
+        <vuelo cod="V22" estado="R">
+            <diario/>
+            <origen>NY</origen>
+            <destino>Chicago</destino>
+            <salida>9:30</salida>
+            <llegada>11:30</llegada>
+        </vuelo>
+        
+        <vuelo cod="V23" estado="C">
+            <diario/>
+            <origen>NY</origen>
+            <destino>Miami</destino>
+            <salida>9:30</salida>
+            <llegada>11:30</llegada>
+        </vuelo>
+    </vuelos>
+    <fecha>13/2/23</fecha>
+    
+</aeropuerto>
+
